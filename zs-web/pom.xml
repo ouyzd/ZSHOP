@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-		<parent>
-		<groupId>com.zhsop</groupId>
+	<parent>
+		<groupId>com.zshop</groupId>
 		<artifactId>zs-parent</artifactId>
 		<version>${zs.version}</version>
 	</parent>
@@ -15,9 +15,9 @@
 		<spring.version>4.0.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 	</properties>
-	<dependencies>		
+	<dependencies>
 		<dependency>
-			<groupId>com.zhsop</groupId>
+			<groupId>com.zshop</groupId>
 			<artifactId>zs-service</artifactId>
 			<version>${zs.version}</version>
 		</dependency>
