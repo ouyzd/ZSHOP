@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.zshop</groupId>
+		<artifactId>zs-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>zs-parent</artifactId>
+	<packaging>pom</packaging>
+	<name>zs-parent</name>
+	<url>http:/www.sinosafe.com.cn</url>
+	<modules>
+		<module>zs-util</module>
+		<module>zs-dto</module>
+		<module>zs-dao</module>
+		<module>zs-service</module>
+		<module>zs-web</module>
+	</modules>
+	<properties>
+		<zs-parent.version>0.0.1-SNAPSHOT</zs-parent.version>
+		<zs-util.version>0.0.1-SNAPSHOT</zs-util.version>
+		<zs-dto.version>0.0.1-SNAPSHOT</zs-dto.version>
+		<zs-dao.version>0.0.1-SNAPSHOT</zs-dao.version>
+		<zs-service.version>0.0.1-SNAPSHOT</zs-service.version>
+		<zs-web.version>0.0.1-SNAPSHOT</zs-web.version>
+	</properties>
+	<dependencies>
+	</dependencies>
+</project>
